@@ -1,0 +1,82 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #b8b8b8;
+}
+li{
+	list-style: none;
+}
+#container{
+	position: relative;
+	width: 600px;
+	height: 337.5px;
+	margin: 0  auto;
+}
+#warp{
+	width: 100%;
+
+}
+#box{
+	width: 600px;
+	height: 337.5px;
+}
+#box div span{
+	width: 100px;
+	height: 100px;
+    position: absolute;
+    z-index: 7;
+    background: #847979;
+    font-size: 74px;
+    line-height: 74px;
+    text-align: center;
+    opacity: 0.4;
+    top:50%;
+    transform: translateY(-50%);
+}
+#warp li{
+	width: 100px;
+    position: absolute;
+
+}
+.list img{
+     width: 600px;
+     height: auto;}
+#box div .spanright{
+	   position: absolute;
+       right: 0px;
+}
+#box div span:hover{
+	opacity: 1;
+	cursor: pointer;		
+}
+/*#ulli li{
+	float: left;
+}*/
+#btn{
+	position: absolute;
+	z-index: 7;
+	top: 87%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#btn ul li{
+	float: left;
+
+}
+#btn ul li{
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50%;
+	margin:4px;
+
+}
+#btn ul li:hover{
+	cursor: pointer;
+}
+#btn ul .spanlist{
+	background: red;
+ }
